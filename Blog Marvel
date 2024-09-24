@@ -1,0 +1,380 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Curiosidades</title>
+    <!-- Metatags para SEO -->
+    <meta name="description" content="Blog dedicado a curiosidades sobre a Marvel e outros temas fascinantes.">
+    <meta name="keywords" content="Marvel, curiosidades, quadrinhos, super-heróis, filmes">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Blog Curiosidades</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container Principal -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Início
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Artigos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Sobre
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Conteúdo Principal -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <h1 class="mt-4">Bem-vindo ao Blog de Curiosidades</h1>
+                <p>Aqui você encontrará as mais interessantes curiosidades sobre diversos temas.</p>
+
+                <!-- Seção de Curiosidades da Marvel -->
+                <section class="mt-5">
+                    <h2>Curiosidades da Marvel</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/homem-aranha.jpg" class="img-fluid rounded" alt="Homem-Aranha">
+                        </div>
+                        <div class="col-md-6">
+                            <p>A Marvel Comics é uma das editoras de quadrinhos mais influentes do mundo. Aqui estão algumas curiosidades fascinantes:</p>
+                            <ul>
+                                <li><a href="pagina-interna.html">O personagem Homem-Aranha foi criado por Stan Lee e Steve Ditko em 1962.</a></li>
+                                <li>O Universo Cinematográfico Marvel (MCU) é o universo de filmes interconectados mais bem-sucedido da história.</li>
+                                <li>O símbolo do Capitão América é baseado no que era comum nos anos 40.</li>
+                                <li>Thanos, um dos vilões mais poderosos da Marvel, tem suas raízes na mitologia grega.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Seção de Vídeo -->
+                <section class="mt-5">
+                    <h2>Vídeo Destaque</h2>
+                    <div class="ratio ratio-16x9">
+                       <iframe src="https://www.youtube.com/embed/k5lq_kGBuZA" title="Curiosidades da Marvel" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <!-- Seção de Comentários -->
+                <section class="mt-5">
+                    <h2>Comentários</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="comentario" class="form-label">Comentário</label>
+                            <textarea class="form-control" id="comentario" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Blog de Curiosidades. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Personalizado -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do Homem-Aranha</title>
+    <!-- Metatags para SEO -->
+    <meta name="description" content="Detalhes sobre a história do Homem-Aranha, um dos super-heróis mais icônicos da Marvel.">
+    <meta name="keywords" content="Homem-Aranha, Marvel, super-heróis, Stan Lee, Steve Ditko">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Blog Curiosidades</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container Principal -->
+    <div class="container mt-4">
+        <h1>História do Homem-Aranha</h1>
+        <p>O Homem-Aranha, criado por Stan Lee e Steve Ditko, é um dos super-heróis mais icônicos da Marvel. Sua história começou em 1962, quando Peter Parker, um jovem estudante do ensino médio, foi mordido por uma aranha radioativa durante uma demonstração científica. Essa mordida concedeu a ele habilidades sobre-humanas, incluindo força, agilidade e a capacidade de escalar paredes.</p>
+
+        <h2>Origens e Primeiros Passos</h2>
+        <p>Após adquirir seus poderes, Peter inicialmente os usou para benefício próprio, ganhando dinheiro em lutas de luta clandestinas. No entanto, após a trágica morte de seu tio Ben, resultado de sua negligência em impedir um assalto, Peter decidiu usar seus poderes para combater o crime e proteger os inocentes, adotando a filosofia de que "com grandes poderes vêm grandes responsabilidades".</p>
+
+        <h2>Impacto Cultural</h2>
+        <p>O Homem-Aranha rapidamente se tornou um símbolo de esperança e resiliência. Diferente de outros super-heróis, ele enfrenta desafios cotidianos, como trabalho, relacionamentos e perdas pessoais, tornando-o mais humano e identificável para o público.</p>
+
+        <h2>Adaptações e Expansões</h2>
+        <p>Além dos quadrinhos, o Homem-Aranha foi adaptado para diversas mídias, incluindo séries de televisão, filmes de sucesso e jogos eletrônicos. O personagem também desempenha um papel crucial no Universo Cinematográfico Marvel (MCU), interagindo com outros heróis e participando de grandes eventos como "Vingadores".</p>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Blog de Curiosidades. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Personalizado -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>pagina-interna.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do Homem-Aranha</title>
+    <!-- Metatags para SEO -->
+    <meta name="description" content="Detalhes sobre a história do Homem-Aranha, um dos super-heróis mais icônicos da Marvel.">
+    <meta name="keywords" content="Homem-Aranha, Marvel, super-heróis, Stan Lee, Steve Ditko">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Blog Curiosidades</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container Principal -->
+    <div class="container mt-4">
+        <h1>História do Homem-Aranha</h1>
+        <p>O Homem-Aranha, criado por Stan Lee e Steve Ditko, é um dos super-heróis mais icônicos da Marvel. Sua história começou em 1962, quando Peter Parker, um jovem estudante do ensino médio, foi mordido por uma aranha radioativa durante uma demonstração científica. Essa mordida concedeu a ele habilidades sobre-humanas, incluindo força, agilidade e a capacidade de escalar paredes.</p>
+
+        <h2>Origens e Primeiros Passos</h2>
+        <p>Após adquirir seus poderes, Peter inicialmente os usou para benefício próprio, ganhando dinheiro em lutas de luta clandestinas. No entanto, após a trágica morte de seu tio Ben, resultado de sua negligência em impedir um assalto, Peter decidiu usar seus poderes para combater o crime e proteger os inocentes, adotando a filosofia de que "com grandes poderes vêm grandes responsabilidades".</p>
+
+        <h2>Impacto Cultural</h2>
+        <p>O Homem-Aranha rapidamente se tornou um símbolo de esperança e resiliência. Diferente de outros super-heróis, ele enfrenta desafios cotidianos, como trabalho, relacionamentos e perdas pessoais, tornando-o mais humano e identificável para o público.</p>
+
+        <h2>Adaptações e Expansões</h2>
+        <p>Além dos quadrinhos, o Homem-Aranha foi adaptado para diversas mídias, incluindo séries de televisão, filmes de sucesso e jogos eletrônicos. O personagem também desempenha um papel crucial no Universo Cinematográfico Marvel (MCU), interagindo com outros heróis e participando de grandes eventos como "Vingadores".</p>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Blog de Curiosidades. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Personalizado -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>contato.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Blog de Curiosidades</title>
+    <!-- Metatags para SEO -->
+    <meta name="description" content="Página de contato do Blog de Curiosidades sobre a Marvel e outros temas fascinantes.">
+    <meta name="keywords" content="Contato, Blog, Curiosidades, Marvel, super-heróis">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Blog Curiosidades</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container Principal -->
+    <div class="container mt-4">
+        <h1>Contato</h1>
+        <form>
+            <div class="mb-3">
+                <label for="nomeContato" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nomeContato" required>
+            </div>
+            <div class="mb-3">
+                <label for="emailContato" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailContato" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagemContato" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagemContato" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Blog de Curiosidades. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Personalizado -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>css/styles.css
+
+/* styles.css */
+
+/* Estilos Personalizados */
+
+/* Sidebar */
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 56px; /* Altura da navbar */
+    left: 0;
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: static;
+        height: auto;
+    }
+}
+
+/* Ajustes no conteúdo principal para compensar a sidebar fixa */
+@media (min-width: 768px) {
+    main {
+        margin-left: 250px; /* Largura da sidebar */
+    }
+}
+
+/* Rodapé */
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Formulário de Comentários */
+form textarea {
+    resize: none;
+}js/scripts.js
+
+// scripts.js
+
+// Exemplo de JavaScript personalizado
+document.addEventListener('DOMContentLoaded', () => {
+    // Você pode adicionar funcionalidades aqui
+    console.log('Blog de Curiosidades está funcionando!');
+});
